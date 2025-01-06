@@ -2039,8 +2039,8 @@ body {
     margin-right: 15px;
     padding-right: 15px;
   }
-  section.our-team ul.nacc li .left-content span a,
-  section.our-courses02 ul.nacc li .right-content span {
+  section.our-courses02 ul.nacc li .left-content span a,
+  section.our-courses ul.nacc li .right-content span {
     margin-right: 15px;
     padding-right: 15px;
   }
@@ -2115,8 +2115,9 @@ section.our-courses ul.nacc li .left-image,
     padding: 30px;
   }
   section.our-courses02 .naccs .menu div {
-    width: 21%;
+    width: 35%;
     margin: 0px 5px;
+    /* font-size: 17px; */
   }
   section.our-courses02 .naccs .menu div.active img {
     border: 3px solid #dc8cdb;
