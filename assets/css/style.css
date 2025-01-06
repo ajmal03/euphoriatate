@@ -554,7 +554,7 @@ header
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
-    width: 180px;
+    width: 120px;
     margin-left: 45px;
   }
   .header-area.header-sticky .nav li a:hover,
