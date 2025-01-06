@@ -1636,6 +1636,8 @@ section.our-courses02 .naccs .menu div h4 {
   margin-bottom: 5px;
   padding: 7px;
   border-radius: 5px !important;
+  /* border: 5px; */
+  border: 2px dotted;
 }
 
 section.our-courses02 .naccs .menu div span {
