@@ -1747,6 +1747,55 @@ section.our-courses02 ul.nacc li.active {
 section.our-courses02 ul.nacc li p {
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+ .sticky-btn {
+    position: fixed; /* Keeps the button in place */
+    bottom: 20px; /* 20px from the bottom of the page */
+    right: 20px; /* 20px from the right of the page */
+    padding: 12px 25px; /* Adjusted padding for better proportions */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 18px; /* Font size */
+    text-align: center; /* Text aligned in the middle */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure it stays above other content */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.sticky-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .sticky-btn {
+        font-size: 16px; /* Smaller font size */
+        padding: 10px 20px; /* Reduced padding */
+        bottom: 10px; /* Less space from the bottom */
+        right: 10px; /* Less space from the right */
+    }
+}
+
+
+
+
+
+
+
+
 /*
 ---------------------------------------------
 our services page
