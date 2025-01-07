@@ -1763,6 +1763,7 @@ section.our-courses02 ul.nacc li p {
             display: flex;
             align-items: center;
             margin-bottom: 15px;
+          margin-top: 10px;
         }
         .week-badge {
             font-weight: bold;
