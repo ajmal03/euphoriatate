@@ -1764,7 +1764,7 @@ section.our-courses02 ul.nacc li p {
     bottom: 20px; /* 20px from the bottom of the page */
     right: 20px; /* 20px from the right of the page */
     padding: 12px 25px; /* Adjusted padding for better proportions */
-    background-color: #007BFF; /* Button background color */
+        background: linear-gradient(-145deg, rgb(0 0 91) 0%, rgb(173 127 255) 100%); /* Button background color */
     color: white; /* Button text color */
     font-size: 18px; /* Font size */
     text-align: center; /* Text aligned in the middle */
