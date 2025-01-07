@@ -1751,6 +1751,36 @@ section.our-courses02 ul.nacc li p {
 
 
 
+.schedule-container {
+            max-width: 600px;
+            margin: 0 auto;
+/*            background: #fff;*/
+            border-radius: 10px;
+/*            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+            padding: 20px;
+        }
+        .schedule-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .week-badge {
+            font-weight: bold;
+            background: #2d2186;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-right: 15px;
+            text-align: center;
+            min-width: 80px;
+        }
+        .week-text {
+            font-size: 16px;
+        }
+
+
+
+
 
 
 
