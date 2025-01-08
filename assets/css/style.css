@@ -1654,7 +1654,7 @@ section.our-courses02 .naccs .menu div.active h4 {
   color: #ffffff;
   /* border: 3px solid rgb(138 145 222 / 50%); */
   box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
-  background: #2d2186;
+  background: linear-gradient(-145deg, rgb(0 0 91) 0%, rgb(173 127 255) 100%);
 }
 
 section.our-courses02 ul.nacc {
