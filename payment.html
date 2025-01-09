@@ -25,6 +25,18 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
        */
+           button a {
+/*            display: block;*/
+            width: 60%;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(-145deg, rgb(0 0 91) 0%, rgb(173 127 255) 100%);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
         button {
 /*            display: block;*/
             width: 60%;
@@ -110,6 +122,10 @@
         <h1 style="text-align: center;
             color: #333;">Make a Payment</h1>
         <!-- Razorpay Button for Indian Customers -->
+             <a href="upi://pay?pa=yourupiid@bank&pn=YourName&am=500&cu=INR" target="_blank">
+            Pay ₹500 with UPI
+        </a>
+
         <button class="razorpay" id="razorpay-button">Pay with Razorpay</button>
         <!-- PayPal Button for International Customers -->
         <button id="checkout-button">Pay with Stripe</button>
