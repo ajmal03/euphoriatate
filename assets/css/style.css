@@ -597,15 +597,16 @@ header
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #000;
   }
   .header-area.header-sticky .nav {
     margin-top: 100px !important;
+    opacity: 0.9;
   }
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -614,8 +615,8 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #000 !important;
+    color: #fff !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
