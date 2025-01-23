@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
@@ -1138,8 +1139,8 @@
  $("#contact").submit((e) => {
       e.preventDefault(); // Prevent page reload
       $.ajax({
-        url: "https://docs.google.com/forms/u/1/d/1qz63FBQsf4biuCt9boBljblQ6_b5eefQTzveRz-I1Hk/previewResponse", // Replace with your form's URL
-        data: $("#submit-form").serialize(), // Serialize form data
+        url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfb4Ia1moYj94hc9Ryzmafx1C-W_TQF2troAvcjpK7zD63Uvg/formResponse", // Replace with your form's URL
+        data: $("#contact").serialize(), // Serialize form data
         method: "POST",
         success: function (response) {
           alert("Form Registration successfully!");
