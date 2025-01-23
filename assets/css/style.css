@@ -618,8 +618,8 @@ header
     color: #fff !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #dc8cdb!important;
+    background: #B71C1C !important;
+    color: #fff!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
