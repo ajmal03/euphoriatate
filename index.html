@@ -22,6 +22,47 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
+
+
+
+ <style>
+        .radio-group {
+    display: flex;
+    flex-direction: column; /* Stacks the options vertically */
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .radio-group input[type="radio"] {
+    display: none; /* Hides default radio buttons */
+  }
+
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+        width: 231px;
+  }
+
+  .radio-group input[type="radio"]:checked + label {
+    color: #fff;
+  background: rgb(219,138,222);
+  background: linear-gradient(-145deg, rgb(0 0 91) 0%, rgb(173 127 255) 100%);
+  }
+
+  .radio-group input[type="radio"]:focus + label {
+    outline: 2px solid #051A23;
+  }
+    </style>
+
+    
   </head>
 
 <body>
@@ -1044,6 +1085,18 @@
               <div class="col-lg-12">
                 <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder=" Phone Number" required="">
               </div>
+              <div class="col-lg-12">
+      <fieldset>
+  
+  <div class="radio-group">
+    <input type="radio" id="aboriginal" name="indigenous" value="Aboriginal" required>
+    <label for="aboriginal">I am Aboriginal</label>
+
+    <input type="radio" id="torres-strait" name="indigenous" value="Torres Strait Islander" required>
+    <label for="torres-strait">I am Torres Strait Islander</label>
+  </div>
+</fieldset>
+    </div>
               <div class="col-lg-12">
                 <fieldset>
                   <textarea name="message" id="message" placeholder="Your Message"></textarea>
