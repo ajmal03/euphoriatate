@@ -161,7 +161,7 @@ body {
 
 .main-button-gradient a:hover {
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgb(0 0 0 / 78%) 0%, rgb(137 5 5 / 88%) 100%) !important;
+  background:linear-gradient(-145deg, rgb(0 0 0 / 78%) 0%, rgb(255 160 0) 100%) !important;
   opacity: 0.9;
 }
 
@@ -2184,7 +2184,7 @@ body {
     margin: 0px 5px;
   }
   section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
+    border: 3px solid #df7612;
   }
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {
