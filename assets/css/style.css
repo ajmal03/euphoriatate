@@ -2148,7 +2148,9 @@ body {
     padding-right: 15px;
   }
   #about-img{
-    width: 50px;
+/*     width: 50px; */
+
+    display:none;
   }
 }
 
